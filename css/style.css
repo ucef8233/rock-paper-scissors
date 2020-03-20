@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:600,700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed',
+    sans-serif;
+}
+
+.container {
+  max-width: 75em;
+  margin: 6em auto;
+  background-color: hsl(237, 49%, 15%);
+  height: 80vh;
+  padding: 1em;
+}
+
+header {
+  max-width: 55em;
+  margin: 2em auto;
+  border: 1px solid hsl(189, 59%, 53%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+
+.header__img {
+  margin-left: 28%;
+  margin-top: 26%;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.scorefinal {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1em 2em;
+  text-align: center;
+  line-height: 2;
+  color: hsl(229, 25%, 31%);
+  background-color: white;
+  width: 7em;
+  font-size: 2em;
+}
+
+span {
+  color: hsl(217, 16%, 45%);
+}
+
+main {
+  max-width: 35em;
+  margin: 3em auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.main__img {
+  width: 12em;
+  height: 12em;
+  background-color: bisque;
+  border-radius: 50%;
+}
+
+img {
+  margin-top: 35%;
+}
+
+.main__img:nth-child(3) {
+  border: 1em solid teal;
+}
+
+.main__img:nth-child(2) {
+  border: 1em solid green;
+}
+
+.main__img:nth-child(1) {
+  border: 1em solid yellow;
+}
+
+#affiches {
+  display: none;
+  justify-content: space-around;
+  width: 30em;
+  align-items: center;
+
+}
+
+.affiche {
+  width: 8em;
+  height: 8em;
+  background-color: bisque;
+  border-radius: 50%;
+
+}
+
+#scores {
+  display: none;
+  justify-content: space-between;
+}
+
+#scores div {
+  border-radius: 50px;
+  width: 5em;
+  height: 5em;
+  background-color: black;
+  padding: 1em;
+  color: white;
+  font-size: 1em;
+  margin-top: -5em;
+  display: flex;
+}
+
+#scores div:last-child,
+#affiches div:last-child {
+  border: 1em solid red;
+}
+
+#scores div:first-child,
+#affiches div:first-child {
+  border: 1em solid blue;
+}
